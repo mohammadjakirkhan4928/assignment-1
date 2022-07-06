@@ -4,7 +4,6 @@ body{
 }
 .top{
     background-image: url(./donation13.jpg);
-
     background-size: cover;
     background-repeat: no-repeat;
     height: 320px;
@@ -13,32 +12,36 @@ body{
 .top-h{
     padding-top: 80px;
     font-weight: bold;
-    color: rgb( 45, 10, 245);
+    color:rgb(245, 13, 44);
 }
 .top-p{
     color: aliceblue;
 }
-.anchor-tag{
-    text-align: center;
-    color: goldenrod;
-    padding:
-    color: white;
-    font-size: 16px;
+.btn{
+    background-color: orange;
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 5
+    text-align:center;
 }
+.btn:hover{
+    background-color: #5a2391;
+    color:aliceblue;
 
-.hr{
-    text-align: center;
-}
 
 .a-tag{
     text-decoration: none;
-}
-.second-h{
+}}
+.second-hp{
     text-align: center;
+    font-size: 25px;
+    font-weight:bold ;
 }
-.
-}
-.ul-tag{
+.contant-1{
     text-align: center;
     padding: 5px;
 }
@@ -46,32 +49,41 @@ body{
     padding: 50px;
     color:black;
     font-weight: bold;
-    background-color: #4CAF50;
+    background-color:aqua ;
     text-align: center;
 }
 .button2{
     padding: 50px;
-    background-color: brown;
+    background-color:blueviolet ;
     color:black;
     font-weight: bold;
-    background-color: #af604c;
-    text-align: center;
+
 }.button3{
     padding: 50px;  color:black;
     font-weight: bold;
-    background-color: #4CAF50;
-    text-align: center;
+    background-color:aqua ;
 
 }.button4{
     padding: 50px;
     color:black;
     font-weight: bold;
-    background-color:#4CAF50;
+    background-color:aqua;
+}
+.contant-bootom{
     text-align: center;
+    padding: 0%;
 }
 
-.section2-p{
+
+
+.section2-h{
     text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.section2-p{
+    font-size: 20px;
+    color: rgb(226, 9, 38);
 }
 .section2{
     display: flex;
@@ -106,19 +118,26 @@ body{
  background-color: coral;
  border-radius: 5px;
 }
-.section2-3{
+.about{
     display: flex;
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-left: 11%;
 }
-.half-widht{
-    width:50%;
-    height: 20px;
-   display: flex;
-}
-.half-widh img{
+.img-write{
     width: 50%;
-    height: 100px;
-    padding: left 5px;
+     padding-right: 0%;
+     border-radius: 66px;
+}
+.img-write img{
+    width: 50%;
+    height: 100%;
+    padding-right: 3px;
+    object-fit: scale-dow;
+}
+}
+.container{
+    text-align: center;
+    font-size: 35px;
 }
 .container{
     text-align: center;
@@ -136,4 +155,23 @@ footer{
     text-align: center;
     padding: top ;
     color: #e5eb76;
+}
+.emai-btn{
+    padding: 10px 13px;
+    background-color: cadetblue;
+}
+.sub-btn{
+    background-color: orange;
+    height: 20px;
+    width: 140px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 5
+    text-align:center
+}
+.sub-btn:hover{
+    background-color: #5a2391;
+    color:aliceblue;
 }
